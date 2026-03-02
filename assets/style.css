@@ -1,20 +1,73 @@
+/* Import Garamond-style font */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap');
+
 body {
-    font-family: "Georgia", serif;
+    font-family: 'EB Garamond', serif;
     max-width: 850px;
-    margin: auto;
-    line-height: 1.6;
-    padding: 20px;
+    margin: 60px auto;
+    padding: 0 20px;
+    line-height: 1.8;
+    color: #111;
+    background-color: #ffffff;
 }
 
-h1, h2 {
-    color: #1a2a44;
+.name {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 5px;
 }
 
-a {
-    color: #003366;
+.tagline {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+nav {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+nav a {
     text-decoration: none;
+    color: #000;
+    margin-right: 18px;
+    font-size: 15px;
 }
 
-a:hover {
+nav a:hover {
     text-decoration: underline;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    font-size: 18px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 25px 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
 }
